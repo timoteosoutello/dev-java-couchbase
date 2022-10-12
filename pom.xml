@@ -9,8 +9,7 @@
 	<name>Couchbase Test</name>
 	<properties>
 		<!-- dependencies version -->
-		<commons-lang3.version>3.12.0</commons-lang3.version>
-		<couchbase.java.client.version>3.3.0</couchbase.java.client.version>
+		<couchbase.java.client.version>3.3.4</couchbase.java.client.version>
 		<couchbase.test.container.version>1.17.5</couchbase.test.container.version>
 		<jacoco.version>0.8.6</jacoco.version>
 		<junit-engine.version>5.9.1</junit-engine.version>
@@ -111,12 +110,6 @@
 			<artifactId>mockito-junit-jupiter</artifactId>
 			<version>${mockito.version}</version>
 			<scope>test</scope>
-		</dependency>
-		<!-- APACHE COMMONS -->
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>${commons-lang3.version}</version>
 		</dependency>
 		<!-- SWAGGER -->
 		<dependency>
