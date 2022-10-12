@@ -17,19 +17,7 @@
             additivity="false">
             <AppenderRef ref="Console-Appender" />
         </Logger>
-        <Logger name="org.hibernate.SQL" level="debug"
-            additivity="false">
-            <AppenderRef ref="Console-Appender" />
-        </Logger>
-        <Logger name="org.hibernate.type" level="debug"
-            additivity="false">
-            <AppenderRef ref="Console-Appender" />
-        </Logger>
         <Logger name="org.springframework.web" level="debug"
-            additivity="false">
-            <AppenderRef ref="Console-Appender" />
-        </Logger>
-        <Logger name="liquibase.changelog" level="debug"
             additivity="false">
             <AppenderRef ref="Console-Appender" />
         </Logger>
